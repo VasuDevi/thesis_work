@@ -20,8 +20,8 @@ thesis/pipeline.log
 thesis/ncbf_train.log
 thesis/per_frame_batch.log
 
-# Model checkpoints — stored on HuggingFace
-thesis_results/ncbf/*.pt
+# Model checkpoints — also stored on HuggingFace (Sswa12/thesis-ncbf-checkpoints)
+# thesis_results/ncbf/*.pt
 thesis_results/figures/
 thesis_results/navigation/
 
