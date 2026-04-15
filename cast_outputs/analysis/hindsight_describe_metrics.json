@@ -1,0 +1,12 @@
+{
+  "step": "hindsight_describe",
+  "model": "gpt-4o",
+  "total_frame_pairs": 537575,
+  "already_done_before_batch": 87110,
+  "batch_submitted": 450465,
+  "batch_written": 450030,
+  "batch_failed": 435,
+  "failure_rate_pct": 0.0966,
+  "total_written": 537140,
+  "failure_reason": "API-level errors (content policy / no output_text in response body)"
+}

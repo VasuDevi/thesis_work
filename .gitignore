@@ -1,0 +1,59 @@
+# Large binary datasets — stored on HuggingFace instead of Git
+atomic_datasets/
+atomic_dataset.tar.gz
+reconstructed_trajectories/
+cast_outputs/hindsight/
+cast_outputs/counterfactual/
+cast_outputs/counterfactual_unsafe/
+cast_outputs/safety_margins/
+cast_outputs/unsafe_action_generation/
+cast_outputs/merged_hindsight_records.jsonl
+
+# NWM model weights and logs (22 GB)
+nwm/logs/
+
+# Thesis pipeline temp/shard data
+thesis/shard_temp/
+thesis/latent_shard_temp/
+thesis/logs/
+thesis/pipeline.log
+thesis/ncbf_train.log
+thesis/per_frame_batch.log
+
+# Model checkpoints — stored on HuggingFace
+thesis_results/ncbf/*.pt
+thesis_results/figures/
+thesis_results/navigation/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Wandb logs
+wandb/
+thesis/wandb/
+
+# Misc logs
+*.log
+*.jsonl.bak
+push_old*.py
+thesis/push_old*.py
+thesis/target.py
+thesis/logs/patch_actions_checkpoint*.json*
+
+# HF credentials (keep .env template but not actual values)
+.env
+
+# VSCode
+.vscode/
+
+# CAST original submodule (fork pushes separately)
+# CAST/cast-vla is a submodule, keep it tracked
