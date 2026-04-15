@@ -1,0 +1,9 @@
+[submodule "thesis"]
+	path = thesis
+	url = https://github.com/VasuDevi/thesis.git
+[submodule "CAST"]
+	path = CAST
+	url = https://github.com/VasuDevi/CAST.git
+[submodule "nwm"]
+	path = nwm
+	url = https://github.com/facebookresearch/nwm.git
